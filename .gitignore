@@ -41,3 +41,33 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Project additions
+*-backups/
+*.bak
+*-cache.lib
+*.kicad_prl
+fp-info-cache
+*.sch-bak
+*.pcb-bak
+
+# Generated fabrication outputs (gerbers, drill)
+*.gbr
+*.gtl
+*.gbl
+*.gto
+*.gbo
+*.gts
+*.gbs
+*.gtp
+*.gbp
+*.gm1
+*.gko
+*.gbrjob
+*.drl
+*.xln
+*.exc
+*-drl_map.*
+*-job.gbrjob
+gerbers/
+fabrication/
