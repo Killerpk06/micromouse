@@ -71,3 +71,10 @@ fp-info-cache
 *-job.gbrjob
 gerbers/
 fabrication/
+
+# Python
+__pycache__/
+*.pyc
+
+# Keep the KiCad BOM export (template ignores *.csv)
+!kicad/micromouse_bom.csv
